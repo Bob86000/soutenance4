@@ -1104,6 +1104,21 @@ background-color: white;
     p {
         font-size: 12px !important;
     }
+    footer li {
+        margin-top: 8px !important;
+        margin-bottom: 8px !important;
+    }
+    footer li a {
+        display: inline-flex;
+        align-items: flex-start;
+    }
+    footer li a p{
+        height: 48px;
+        font-size: 2rem !important;
+        text-align: start;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        }
 }
 
 @media (max-width: 550px) {
