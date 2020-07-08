@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -777,6 +777,10 @@ h4 {
 .tc-white {
     color: #F3976C!important;
 }
+.tc-white2 {
+    color: white!important;
+}
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -823,9 +827,6 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
-}
-.textcache p,.textcache h1{
-    color:black !important;
 }
 
 @media (max-width: 1024px) {
@@ -1042,109 +1043,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
-.header2{
-    display: flex;
-}
-.bloc-sm2{
-    display: flex;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    position:relative;
-
-}
-.navbar2 {
-    display:flex;
-    position:relative;
-    padding-left:0;
-    padding-right:0;
-    width: 100%;
-}
-.headernav2 {
-    display:flex;
-    position:relative;
-    padding-left:0;
-    width: 50%;
-
-}
-.collapse2{
-    display:flex;
-    position:relative;
-    width: 50%;
-    align-items: center;
-}
-.ulpage2{
-display:flex;
-justify-content: space-between;
-text-align: center;
-border-top: none !important;
-top: initial !important;
-
-background-color: white;
-}
-.ulpage2 li{
-    position:relative;
-    margin-right: 10px;
-    
-    border-bottom: none !important;
-    
-    background-color: white;
-}
-.ulpage2 li::marker{
-    display:none;
-    
-    background-color: white;
-}
-.ulpage2 li a{
-    text-decoration: none;
-    background-color: white;
-}
-@media (max-width: 767px) {
-        .bloc-sm2{
-            width: 100%;
-    }
-    p {
-        font-size: 12px !important;
-    }
-    footer li {
-        margin-top: 8px !important;
-        margin-bottom: 8px !important;
-    }
-    footer li a {
-        display: inline-flex;
-        align-items: flex-start;
-    }
-    footer li a p{
-        height: 48px;
-        font-size: 2rem !important;
-        text-align: start;
-        margin-left: 0 !important;
-        padding-left: 0 !important;
-        }
-}
-
-@media (max-width: 550px) {
-    .navbar2 {
-        flex-direction: column;
-    }
-    .collapse2{
-        width: 100%;
-        justify-content: center;
-    }
-    .headernav2 {
-        width: 100%;
-        justify-content: center;
-    
-    }
-    .ulpage2{
-        width: 80%;
-        justify-content: space-between;
-        margin-right:0 !important;
-    }
-    .ulpage2 li{
-        margin-right: 0 !important;
-        padding-left: 0 !important;
-    }
-
 }
