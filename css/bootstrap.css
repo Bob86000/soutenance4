@@ -1432,13 +1432,24 @@ img {
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
-.img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
     max-width: 100%;
     height: auto
 }
+.img-responsive{
+    max-width: 100%;
+    height: auto
+}
+.flexi .col-sm-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 
 .img-rounded {
     border-radius: 6px
