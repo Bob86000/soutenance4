@@ -5235,7 +5235,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-toggle:focus {
-    outline: 0
+    outline: dashed black;
 }
 
 .navbar-toggle .icon-bar {
