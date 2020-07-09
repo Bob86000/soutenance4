@@ -851,6 +851,14 @@ footer a {
 .voffseth3 a {
     display:inline-flex;
 }
+.specialayz{
+    text-align: center;
+}
+.specialayz2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1064,5 +1072,10 @@ footer a {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .specialayz2{
+        flex-direction: column;
     }
 }
